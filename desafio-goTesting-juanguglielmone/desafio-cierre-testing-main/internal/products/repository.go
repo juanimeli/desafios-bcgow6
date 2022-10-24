@@ -20,5 +20,3 @@ func (r *repository) GetAllBySeller(sellerID string) ([]Product, error) {
 	})
 	return prodList, nil
 }
-
-//hola
